@@ -1,0 +1,31 @@
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Database (local only — do not commit live patient data)
+nchds.db
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Editor directories
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Temp files
+*.tmp
+*.bak
